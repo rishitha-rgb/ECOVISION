@@ -1,41 +1,146 @@
-# EcoVestors AI
+EcoVestors AI
 
-A production-ready circular resource intelligence MVP built with Next.js 15, React 19, TypeScript, Tailwind CSS, Framer Motion, Lucide and Recharts.
+An AI-powered Circular Resource Intelligence Platform enabling industries to transform industrial waste into valuable resources through intelligent matching, optimized logistics, and sustainability analytics.
 
-## Run locally
+---
+
+Overview
+
+EcoVestors AI is a climate technology platform designed to accelerate the transition towards a circular economy by enabling the efficient reuse of industrial waste. The platform leverages Artificial Intelligence to classify industrial by-products, identify suitable reuse opportunities, optimize logistics, and quantify environmental impact through real-time sustainability metrics.
+
+By connecting waste-generating industries with manufacturers, artisans, recyclers, and MSMEs, EcoVestors AI reduces landfill dependency, lowers carbon emissions, minimizes disposal costs, and creates new economic opportunities from reusable materials.
+
+---
+
+Application Preview
+
+Home Page
+
+<p align="center">
+<img src="./public/readme/landing.png" width="100%">
+</p>
+
+The landing page introduces EcoVestors AI, highlighting its vision, intelligent circular supply chains, and measurable sustainability impact.
+
+---
+
+Circular Marketplace
+
+<p align="center">
+<img src="./public/readme/marketplace.png" width="100%">
+</p>
+
+An AI-powered marketplace that enables industries to list reusable materials while recommending the most suitable buyers based on material compatibility, proximity, logistics efficiency, and sustainability impact.
+
+---
+
+Logistics Intelligence
+
+<p align="center">
+<img src="./public/readme/logistics.png" width="100%">
+</p>
+
+The logistics optimization module recommends efficient collection routes that reduce transportation costs, travel distance, and carbon emissions.
+
+---
+
+Sustainability Dashboard
+
+<p align="center">
+<img src="./public/readme/dashboard.png" width="100%">
+</p>
+
+A centralized analytics dashboard providing insights into material recovery, carbon emissions avoided, circular transactions, and environmental performance.
+
+---
+
+Subscription Plans
+
+<p align="center">
+<img src="./public/readme/pricing.png" width="100%">
+</p>
+
+Flexible Eco Credit subscription plans that enable organizations to scale circular resource management efficiently.
+
+---
+
+Key Features
+
+- AI-powered industrial waste identification and classification
+- Intelligent buyer recommendation engine
+- Digital Material Passport for material traceability
+- Circular Intelligence Score for optimal resource allocation
+- Carbon impact and sustainability analytics
+- Logistics route optimization
+- Circular marketplace for industries and MSMEs
+- ESG reporting and performance insights
+- Eco Credit subscription management
+
+---
+
+Technology Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Frontend | Next.js 15, React 19, TypeScript |
+| Styling | Tailwind CSS, Framer Motion |
+| UI Components | shadcn/ui, Lucide Icons |
+| Data Visualization | Recharts |
+| Forms | React Hook Form, Zod |
+| Mapping | Leaflet |
+| Deployment | Vercel |
+
+---
+
+Installation
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`.
+Open the application at:
 
-## Product capabilities
+```
+http://localhost:3000
+```
 
-- Premium, responsive circular-economy landing experience with dark mode and motion.
-- Role-aware demo authentication for Factory, Artisan/MSME, Logistics Partner, and Admin personas.
-- Role-specific workspace previews with notifications, material batches, smart matches, logistics, and ESG report navigation.
-- AI waste analyser with animated material classification, confidence, value, pathways, buyer, and carbon results.
-- Searchable live marketplace, material cards, AI scores, and meaningful mock match/save actions.
-- Digital Material Passport showing traceability, purity, recovery score, market demand, avoided carbon, and origin.
-- Circular Intelligence matching that transparently scores material, logistics, and carbon fit.
-- Carbon impact dashboard using Recharts (trend and material mix visualisations), live-style metrics, and export feedback.
-- Logistics intelligence experience with a route-planning visualization and scheduling action.
-- Eco Credit subscription plans, contact routes, SEO metadata, generated `robots.txt`, and sitemap.
+---
 
-## Architecture
+Sustainability Impact
 
-The project uses the Next.js App Router and keeps reusable workspace UI in `app/role-switcher.tsx` and `app/workspace-panel.tsx`. The main marketing/product experience is intentionally client-side with realistic mock data, so it deploys without infrastructure or environment variables. Leaflet and React Leaflet are included for production map expansion; the current route intelligence visualization is dependency-free mock UI.
+EcoVestors AI enables organizations to:
 
-## Technology
+- Reduce industrial waste sent to landfills
+- Lower greenhouse gas emissions
+- Decrease waste disposal costs
+- Improve access to affordable secondary raw materials
+- Support ESG and sustainability reporting
+- Promote circular resource utilization
 
-Next.js 15 · React 19 · TypeScript · Tailwind CSS · Framer Motion · Recharts · Lucide · React Hook Form · Zod · Leaflet
+---
 
-## Deployment
+Future Enhancements
 
-Push to GitHub and import the repository into Vercel. No environment variables or backend services are required.
+- AI-powered Computer Vision for waste recognition
+- Predictive material demand forecasting
+- Blockchain-enabled Digital Material Passport
+- IoT-based smart waste monitoring
+- ERP and enterprise integrations
+- Carbon credit marketplace
+- Real-time logistics tracking
+- Automated ESG compliance reporting
 
-## Future scope
+---
 
-Connect real computer vision, marketplace transactions, GIS routing, payment flows, ERP integrations, and verifiable ESG reporting.
+Vision
+
+EcoVestors AI aims to become the digital infrastructure for industrial circularity by enabling organizations to convert waste into measurable environmental and economic value.
+
+Through intelligent resource matching, optimized logistics, and AI-driven sustainability analytics, the platform supports industries in building resilient, efficient, and low-carbon supply chains.
+
+---
+
+License
+
+This project is released under the MIT License.
