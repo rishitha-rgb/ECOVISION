@@ -1,98 +1,107 @@
-EcoVestors AI
+<div align="center">
 
-An AI-powered Circular Resource Intelligence Platform enabling industries to transform industrial waste into valuable resources through intelligent matching, optimized logistics, and sustainability analytics.
+<h1>EcoVestors AI</h1>
 
----
+<h3>AI-Powered Circular Resource Intelligence Platform</h3>
 
-Overview
-
-EcoVestors AI is a climate technology platform designed to accelerate the transition towards a circular economy by enabling the efficient reuse of industrial waste. The platform leverages Artificial Intelligence to classify industrial by-products, identify suitable reuse opportunities, optimize logistics, and quantify environmental impact through real-time sustainability metrics.
-
-By connecting waste-generating industries with manufacturers, artisans, recyclers, and MSMEs, EcoVestors AI reduces landfill dependency, lowers carbon emissions, minimizes disposal costs, and creates new economic opportunities from reusable materials.
-
----
-
-Application Preview
-
-Home Page
-
-<p align="center">
-<img src="./public/readme/landing.png" width="100%">
+<p>
+Transforming industrial waste into valuable resources through intelligent matching, optimized logistics, and sustainability analytics.
 </p>
 
-The landing page introduces EcoVestors AI, highlighting its vision, intelligent circular supply chains, and measurable sustainability impact.
+</div>
 
 ---
 
-Circular Marketplace
+<b>Overview</b>
+
+EcoVestors AI is an AI-powered climate technology platform designed to accelerate the transition towards a circular economy. The platform enables industries to transform reusable industrial waste into valuable resources by intelligently connecting manufacturers with artisans, recyclers, and MSMEs.
+
+Using Artificial Intelligence, EcoVestors AI identifies reusable materials, recommends suitable buyers, optimizes transportation, and quantifies environmental impact through real-time carbon and ESG analytics. By reducing landfill dependency and promoting material reuse, the platform creates measurable economic and environmental value.
+
+---
+
+<b>Application Preview</b>
+
+<b>Landing Page</b>
 
 <p align="center">
-<img src="./public/readme/marketplace.png" width="100%">
+<img src="./assets/landing.png" width="100%" alt="Landing Page">
 </p>
 
-An AI-powered marketplace that enables industries to list reusable materials while recommending the most suitable buyers based on material compatibility, proximity, logistics efficiency, and sustainability impact.
+A modern landing experience introducing EcoVestors AI and its vision of building intelligent circular supply chains.
 
 ---
 
-Logistics Intelligence
+<b>AI Marketplace</b>
 
 <p align="center">
-<img src="./public/readme/logistics.png" width="100%">
+<img src="./assets/marketplace.png" width="100%" alt="Marketplace">
+</p>
+
+An AI-powered marketplace where industries list reusable materials while the platform recommends optimal buyers based on material compatibility, proximity, logistics efficiency, and sustainability impact.
+
+---
+
+<b>Logistics Intelligence</b>
+
+<p align="center">
+<img src="./assets/logistics.png" width="100%" alt="Logistics">
 </p>
 
 The logistics optimization module recommends efficient collection routes that reduce transportation costs, travel distance, and carbon emissions.
 
 ---
 
-Sustainability Dashboard
+<b>Sustainability Dashboard</b>
 
 <p align="center">
-<img src="./public/readme/dashboard.png" width="100%">
+<img src="./assets/dashboard.png" width="100%" alt="Dashboard">
 </p>
 
 A centralized analytics dashboard providing insights into material recovery, carbon emissions avoided, circular transactions, and environmental performance.
 
 ---
 
-Subscription Plans
+<b>Subscription Plans</b>
 
 <p align="center">
-<img src="./public/readme/pricing.png" width="100%">
+<img src="./assets/pricing.png" width="100%" alt="Pricing">
 </p>
 
-Flexible Eco Credit subscription plans that enable organizations to scale circular resource management efficiently.
+Flexible Eco Credit subscription plans designed to help organizations scale circular resource management efficiently.
 
 ---
 
-Key Features
+<b>Key Features</b>
 
 - AI-powered industrial waste identification and classification
-- Intelligent buyer recommendation engine
+- Circular Intelligence Engine for intelligent buyer recommendations
 - Digital Material Passport for material traceability
-- Circular Intelligence Score for optimal resource allocation
-- Carbon impact and sustainability analytics
-- Logistics route optimization
-- Circular marketplace for industries and MSMEs
-- ESG reporting and performance insights
+- AI-driven logistics optimization
+- Carbon impact calculator and sustainability analytics
+- ESG reporting dashboard
+- Circular marketplace connecting industries, recyclers, artisans, and MSMEs
 - Eco Credit subscription management
 
 ---
 
-Technology Stack
+<b>Technology Stack</b>
 
 | Category | Technologies |
 |----------|--------------|
 | Frontend | Next.js 15, React 19, TypeScript |
 | Styling | Tailwind CSS, Framer Motion |
 | UI Components | shadcn/ui, Lucide Icons |
-| Data Visualization | Recharts |
+| Charts | Recharts |
 | Forms | React Hook Form, Zod |
-| Mapping | Leaflet |
-| Deployment | Vercel |
+| Maps | Leaflet |
+| Deployment | GitHub & Vercel Compatible |
 
 ---
 
-Installation
+<b>Installation</b>
+
+Clone the repository and install the required dependencies.
 
 ```bash
 npm install
@@ -101,46 +110,46 @@ npm run dev
 
 Open the application at:
 
-```
+```text
 http://localhost:3000
 ```
 
 ---
 
-Sustainability Impact
+<b>Sustainability Impact</b>
 
 EcoVestors AI enables organizations to:
 
 - Reduce industrial waste sent to landfills
 - Lower greenhouse gas emissions
-- Decrease waste disposal costs
+- Convert waste disposal costs into revenue opportunities
 - Improve access to affordable secondary raw materials
 - Support ESG and sustainability reporting
 - Promote circular resource utilization
 
 ---
 
-Future Enhancements
+<b>Future Roadmap</b>
 
 - AI-powered Computer Vision for waste recognition
 - Predictive material demand forecasting
 - Blockchain-enabled Digital Material Passport
 - IoT-based smart waste monitoring
 - ERP and enterprise integrations
-- Carbon credit marketplace
+- Carbon Credit Marketplace
 - Real-time logistics tracking
 - Automated ESG compliance reporting
 
 ---
 
-Vision
+<b>Vision</b>
 
-EcoVestors AI aims to become the digital infrastructure for industrial circularity by enabling organizations to convert waste into measurable environmental and economic value.
+EcoVestors AI aims to become the digital infrastructure for industrial circularity by enabling organizations to transform waste into measurable environmental and economic value.
 
 Through intelligent resource matching, optimized logistics, and AI-driven sustainability analytics, the platform supports industries in building resilient, efficient, and low-carbon supply chains.
 
 ---
 
-License
+<b>License</b>
 
 This project is released under the MIT License.
